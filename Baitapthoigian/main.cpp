@@ -51,8 +51,16 @@ int main()
             int giatri6;
             cout << "Nhap gia tri: " << endl;
             cin >> giatri6;
-            c6 = a + giatri6;
+            c6 = a - giatri6;
             cout << c6;
+            break;
+            case 7:
+            ++a;
+            cout << a;
+            break;
+            case 8:
+            --a;
+            cout << a;
             break;
         }
 

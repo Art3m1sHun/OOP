@@ -79,3 +79,45 @@ CTime CTime :: operator + (int a){
     }
     return time;
 }
+CTime CTime :: operator++(){
+    CTime time;
+    time.giay = ++(this->giay);
+     time.phut = (this->phut) ;
+    time.gio = (this->gio) ;
+    while (time.phut >= 60 || time.giay >= 60 || time.gio >= 24){
+    if(time.giay >= 60){
+        time.phut = time.phut + 1;
+        time.giay = time.giay - 60;
+        }
+    if (time.phut >= 60){
+        time.gio = time.gio + 1;
+        time.phut = time.phut - 60;
+        }
+    if (time.gio > 23)
+        {
+        }
+    }
+    return time;
+}
+
+CTime CTime :: operator-- (){
+    CTime time;
+    time.gio = (this->gio);
+    time.phut = (this->phut);
+    time.giay = --(this->giay);
+    while (time.phut < 0|| time.phut < 0 || time.giay < 0){
+    if(time.giay < 0){
+        time.phut = time.phut - 1;
+        time.giay = time.giay + 60;
+        }
+    if (time.phut < 0){
+        time.gio = time.gio - 1;
+        time.phut = time.phut + 60;
+        }
+    if (time.gio > 23)
+        {
+            
+        }
+    }
+    return time;
+}
