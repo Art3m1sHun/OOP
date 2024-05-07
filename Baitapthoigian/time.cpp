@@ -77,8 +77,8 @@ CTime CTime :: operator - (CTime a){
 CTime CTime :: operator + (int a){
     CTime time;
     time.giay = (this->giay) + a;
-    time,phut = (this->phut) + a;
-    time.giay = (this->gio) + a;
+    time,phut = (this->phut) ;
+    time.gio = (this->gio) ;
     while (time.phut >= 60 || time.giay >= 60 || time.gio >= 24){
     if(time.giay >= 60){
         time.phut = time.phut + 1;
