@@ -16,13 +16,3 @@ public:
     CTime operator ++ ();
     CTime operator -- ();
 };
-
-class Cdate {
-    int ngay, thang, nam;
-public:
-    Cdate operator + (int);
-    Cdate operator - (int);
-    Cdate operator ++ ();
-    Cdate operator -- ();
-    Cdate operator - (Cdate a);
-};
