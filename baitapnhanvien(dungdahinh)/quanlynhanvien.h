@@ -5,9 +5,9 @@ class quanli {
 private:
     nhanvien** dulieu;
     int soluongnhanvien;
-    float tongsoluongphaitra;
-    float luongcaonhat;
-    float luongthapnhat;
+    long tongsoluongphaitra;
+    long luongcaonhat;
+    long luongthapnhat;
     int min, max;
 public:
     quanli();

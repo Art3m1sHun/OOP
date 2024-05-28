@@ -13,5 +13,5 @@ public:
     virtual ~nhanvien();
     void virtual nhap();
     void virtual xuat();
-    float virtual tinhluong();
+    long virtual tinhluong();
 };

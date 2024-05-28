@@ -9,5 +9,5 @@ public:
     ~nvvp();
     void nhap();
     void xuat();
-    float tinhluong();
+    long tinhluong();
 };

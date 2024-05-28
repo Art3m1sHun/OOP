@@ -17,6 +17,6 @@ void nhanvien :: xuat(){
     cout << "ngay sinh: " << ngaysinh << endl;
 }
 
-float nhanvien :: tinhluong(){
+long nhanvien :: tinhluong(){
     return 0;
 };

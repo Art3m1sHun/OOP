@@ -13,7 +13,7 @@ void nvsx :: nhap(){
     cout << "nhap so san pham: "; cin >> sosanpham;
 }
 
-float nvsx :: tinhluong(){
+long nvsx :: tinhluong(){
     return luongcanban + sosanpham*5000;
 }
 

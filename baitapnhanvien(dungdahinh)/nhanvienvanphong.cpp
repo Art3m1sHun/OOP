@@ -11,7 +11,7 @@ void nvvp :: nhap(){
     cout << "nhap so ngay lam viec: "; cin >> songaylamviec;
 }
 
-float nvvp::tinhluong(){
+long nvvp::tinhluong(){
     return songaylamviec*100000;
 }
 

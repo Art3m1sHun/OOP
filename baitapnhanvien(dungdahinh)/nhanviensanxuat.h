@@ -10,5 +10,5 @@ public:
     ~nvsx();
     void nhap();
     void xuat();
-    float tinhluong();
+    long tinhluong();
 };
